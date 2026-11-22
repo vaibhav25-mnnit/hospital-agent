@@ -1,13 +1,14 @@
-package com.patientmanagement.api_gateway;
+package com.vaibhavs.hospital_agent;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
 @SpringBootApplication
-public class ApiGatewayApplication {
+public class HospitalAgentApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApiGatewayApplication.class, args);
+		SpringApplication.run(HospitalAgentApplication.class, args);
 	}
 
 }
