@@ -25,7 +25,7 @@ public class PatientTools {
     }
 
     @Tool(description = "Search patients by full or partial name. "
-            + "Returns id, name, date of birth and gender for each match. "
+            + "Returns id, name, date of birth,phone and gender for each match. "
             + "Returns an empty list if nobody matches.")
     public List<ToolPatient> findPatients(
             @ToolParam(description = "Full or partial patient name, e.g. 'Rahul Sharma'") String name) {

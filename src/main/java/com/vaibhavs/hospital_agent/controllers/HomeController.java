@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HomeController {
-    @GetMapping("/")
+    @GetMapping("/check")
     public String homeRoute() {
         return "Welcome this is a spring boot server.";
     }
